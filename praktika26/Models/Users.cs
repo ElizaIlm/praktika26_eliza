@@ -10,7 +10,7 @@ namespace praktika26.Models
 
         public string FIO { get; set; }
         public DateTime  RentStart { get; set; }
-        public int Duretion { get; set; }
+        public int Duration { get; set; }
         public int IdClub { get; set; }
     }
 }
