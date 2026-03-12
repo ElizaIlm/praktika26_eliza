@@ -27,7 +27,7 @@ namespace praktika26.Pages.Users
                 Parent.Children.Add(new Elements.Item(User, this));
         }
 
-        private void AddUser(object sender, RoutedEventArgs e) =>
+        private void AddUser(object sender, System.Windows.RoutedEventArgs e) =>
             MainWindow.init.OpenPages(new Pages.Clubs.Add(this));
     }
 }

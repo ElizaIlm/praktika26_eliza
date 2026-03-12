@@ -27,9 +27,9 @@ namespace praktika26
             init = this;
             OpenPages(new Pages.Clubs.Main());
         }
-        public void OpenPages(Page Page)
+        public void OpenPages(Page page)
         {
-            frame.Navigate(Page);
+            frame.Navigate(page);
         }
 
         private void Clubs(object sender, RoutedEventArgs e) =>
