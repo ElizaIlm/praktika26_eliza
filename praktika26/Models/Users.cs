@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace praktika26.Models
+{
+    public class Users
+    {
+        public int Id { get; set; }
+
+        public string FIO { get; set; }
+        public DateTime  RentStart { get; set; }
+        public int Duretion { get; set; }
+        public int IdClub { get; set; }
+    }
+}
