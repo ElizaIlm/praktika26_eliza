@@ -5,8 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:praktika26"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" MinHeight="450" MinWidth="800">
     <Grid>
         <Frame x:Name="frame" NavigationUIVisibility="Hidden"/>
+        <Button Click="Clubs"
+                Height="25"
+                Content="Клубы"
+                VerticalAlignment="Top"
+                Margin="10,10,0,0"
+                Width="100"
+                HorizontalAlignment="Left"
+                Background="#FF46FD00"
+                BorderBrush="#FF46FD00"
+                Foreground="White"/>
+        <Button
+            Click="Users"
+             Height="25"
+             Content="Пользователи"
+             VerticalAlignment="Top"
+            Width="100"
+             Margin="115,10,0,0"
+             HorizontalAlignment="Left"
+             Background="#FF46FD00"
+             BorderBrush="#FF46FD00"
+             Foreground="White"/>   
     </Grid>
 </Window>

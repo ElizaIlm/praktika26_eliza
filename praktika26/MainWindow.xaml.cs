@@ -25,10 +25,17 @@ namespace praktika26
         {
             InitializeComponent();
             init = this;
+            OpenPages(new Pages.Clubs.Main());
         }
-        public void OpenPages(Page page)
+        public void OpenPages(Page Page)
         {
-            frame.Navigate(page);
+            frame.Navigate(Page);
         }
+
+        private void Clubs(object sender, RoutedEventArgs e) =>
+            OpenPages(new Pages.Clubs.Main());
+
+        private void Users(object sender, RoutedEventArgs e) =>
+              OpenPages(new Pages.Users.Main());
     }
 }
