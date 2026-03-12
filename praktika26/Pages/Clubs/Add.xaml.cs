@@ -20,7 +20,14 @@ namespace praktika26.Pages.Clubs
     public partial class Add : Page
     {
         Main Main;
+        private Users.Main main;
         Models.Clubs Club;
+
+        public Add(Users.Main main)
+        {
+            this.main = main;
+        }
+
         public Add(Main Main, Models.Clubs Club = null)
         {
             this.Main = Main;

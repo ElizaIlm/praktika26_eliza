@@ -24,10 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Users\Elements\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="Images\ic-club.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
