@@ -30,6 +30,11 @@ namespace praktika26.Pages.Clubs.Elements
             this.Club = Club;
         }
 
+        public Item(Models.Clubs club)
+        {
+            Club = club;
+        }
+
         private void EditClub(object sender, System.Windows.RoutedEventArgs e) =>
             MainWindow.init.OpenPages(new Add(Main,Club));
         private void DeleteClub(object sender, System.Windows.RoutedEventArgs e)

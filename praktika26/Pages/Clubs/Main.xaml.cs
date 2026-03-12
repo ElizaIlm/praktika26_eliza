@@ -34,5 +34,7 @@ namespace praktika26.Pages.Clubs
                 }
         private void AddClub(object sender, System.Windows.RoutedEventArgs e) =>
             MainWindow.init.OpenPages(new Add(this));
+
+        
     }
 }

@@ -14,7 +14,7 @@
                 <StackPanel x:Name="Parent"/>
             </ScrollViewer>
             <Button x:Name="BtnAdd"
-                    Click="AbbClub"
+                    Click="AddClub"
                     Height="25"
                     Content="Добавить"
                     VerticalAlignment="Bottom"
